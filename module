@@ -1,5 +1,5 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
-local c = 'rbxassetid://3570695787'
+local c = 'rbxassetid://9125686868'
 function instance(a,a2,a3) local d = Instance.new(a,a2) if a3 then for a,v in next, a3 do d[a] = v end end if a == 'ImageLabel' then if d.Image == 'rbxassetid://3570695787' then d.ScaleType = Enum.ScaleType.Slice d.SliceCenter = Rect.new(100,100,100,100) d.BackgroundTransparency = 1 end end return d end
 function ts(obj,tinfo,p) tinfo[2] = Enum.EasingStyle[tinfo[2]] game:GetService('TweenService'):create(obj,TweenInfo.new(unpack(tinfo)),p):Play() end
 function rgb(a,b,c) return Color3.fromRGB(a,b,c) end
