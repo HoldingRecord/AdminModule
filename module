@@ -76,7 +76,7 @@ gadmin.load = function(thm,title,btcmds)
         thm = getgenv().themes.dark
     end
     if not title then
-        title = 'Anarky#5844 | .gg/HKwEQ74cJr'
+        title = 'HoldingSmileFace'
     end
     if not btcmds then 
         btcmds = true
